@@ -9,7 +9,7 @@ import (
 
 func main() {
 	//本地合成
-	invoice := "创客宝多码付到账1001100.00元"
+	invoice := "创客宝多码付到账1010100.00元"
 	newvoice := ""
 	for _, v := range invoice {
 		fmt.Println(string(v), v)
@@ -47,11 +47,14 @@ func synthesis(invoice string) string {
 					outvoice += unit[voice1len-4]
 				}
 			} else {
-				outvoice += string(v)
-				if voice1len == 4 && len(outvoice) > 1 {
-					outvoice = strings.TrimRight(outvoice, "0")
+				if voice1len == 4 && len(outvoice) > 0 && string(v) == "0" {
+					if len(outvoice) > 1 {
+						outvoice = strings.TrimRight(outvoice, "0")
+					}
+					outvoice += unit[voice1len]
 				}
-				if (voice1len > 0 && string(v) != "0") || (voice1len == 4 && len(outvoice) > 0) {
+				outvoice += string(v)
+				if voice1len > 0 && string(v) != "0" {
 					outvoice += unit[voice1len]
 				}
 			}
