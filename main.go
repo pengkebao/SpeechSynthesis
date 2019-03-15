@@ -1,15 +1,53 @@
 package main
 
 import (
+	"bytes"
 	"fmt"
 	"io"
+	"io/ioutil"
+	"net/http"
 	"os"
 	"strings"
 )
 
+type Audio struct {
+	body *bytes.Buffer
+}
+
+func NewAudio() *Audio {
+	a := new(Audio)
+	a.body = bytes.NewBuffer(make([]byte, 0))
+	return a
+}
+
+func (a *Audio) WriteTo(w io.Writer) (n int64, err error) {
+	n, err = a.body.WriteTo(w)
+	if err != nil {
+		return
+	}
+	return
+}
+
 func main() {
-	//本地合成
-	invoice := "创客宝多码付到账1010100.00元"
+	http.HandleFunc("/", OutAudio)
+	http.ListenAndServe("127.0.0.1:9000", nil)
+}
+
+var (
+	unit       = [...]string{"个", "十", "百", "千", "万"}
+	conversion = map[string]string{"default": "tts_default.mp3",
+		"十": "tts_ten.mp3", "百": "tts_hundred.mp3", "千": "tts_thousand.mp3", "万": "tts_ten_thousand.mp3",
+		"点": "tts_dot.mp3", "元": "tts_yuan.mp3", "0": "tts_0.mp3", "1": "tts_1.mp3", "2": "tts_2.mp3", "3": "tts_3.mp3",
+		"4": "tts_4.mp3", "5": "tts_5.mp3", "6": "tts_6.mp3", "7": "tts_7.mp3", "8": "tts_8.mp3", "9": "tts_9.mp3", "base": "tts_pre.mp3"}
+	sounds = map[string][]byte{}
+)
+
+func OutAudio(w http.ResponseWriter, r *http.Request) {
+	invoice := r.FormValue("s")
+	if len(invoice) < 1 {
+		return
+	}
+	//invoice := "创客宝多码付到账18元"
 	newvoice := ""
 	for _, v := range invoice {
 		fmt.Println(string(v), v)
@@ -17,27 +55,42 @@ func main() {
 			newvoice += string(v)
 		}
 	}
-	fmt.Println("newvoice", newvoice)
-	filename := synthesis(newvoice)
-	fmt.Println(filename)
+	if len(newvoice) < 1 {
+		w.Write([]byte("数据错误"))
+		return
+	}
+	audio := synthesis(newvoice)
+	w.Header().Add("Content-Disposition", "audio/mp3;filename=aa.mp3")
+	w.Header().Add("Content-type", "audio/mp3")
+	n, err := audio.WriteTo(w)
+	fmt.Println(n, err)
 }
 
-var unit [5]string = [...]string{"个", "十", "百", "千", "万"}
-var conversion map[string]string = map[string]string{
-	"十": "tts_ten.mp3", "百": "tts_hundred.mp3", "千": "tts_thousand.mp3", "万": "tts_ten_thousand.mp3",
-	"点": "tts_dot.mp3", "元": "tts_yuan.mp3", "0": "tts_0.mp3", "1": "tts_1.mp3", "2": "tts_2.mp3", "3": "tts_3.mp3",
-	"4": "tts_4.mp3", "5": "tts_5.mp3", "6": "tts_6.mp3", "7": "tts_7.mp3", "8": "tts_8.mp3", "9": "tts_9.mp3", "base": "tts_pre.mp3"}
+func init() {
+	for k, v := range conversion {
+		var err error
+		f, err := os.Open("mp3/" + v)
+		if err != nil {
+			fmt.Println(err)
+		}
+		sounds[k], err = ioutil.ReadAll(f)
+		if err != nil {
+			panic(err)
+		}
+		f.Close()
+	}
+}
 
-func synthesis(invoice string) string {
+func synthesis(invoice string) *Audio {
 	voice := strings.Split(invoice, ".")
 	voice1 := voice[0]
 	voice2 := ""
 	if len(voice) > 1 {
 		voice2 = voice[1]
 	}
-
 	voice1len := len(voice1)
 	outvoice := ""
+	audio := NewAudio()
 	if voice1len > 0 && voice1len <= 8 {
 		for _, v := range voice1 {
 			voice1len--
@@ -65,6 +118,9 @@ func synthesis(invoice string) string {
 		if len(outvoice) > 1 {
 			outvoice = strings.TrimRight(outvoice, "0")
 		}
+		if strings.HasPrefix(outvoice, "1十") {
+			outvoice = strings.TrimPrefix(outvoice, "1")
+		}
 		voice2len := len(voice2)
 		if voice2len > 0 && voice2 != "00" {
 			outvoice += "点"
@@ -74,28 +130,15 @@ func synthesis(invoice string) string {
 			}
 		}
 		outvoice += "元"
-		fmt.Println(outvoice)
 
-		tmpfile, _ := os.Create("tmp.mp3")
-		defer tmpfile.Close()
-		x, err := os.Open("mp3/" + conversion["base"])
-		if err != nil {
-			fmt.Println(err)
-		}
-		io.Copy(tmpfile, x)
-		x.Close()
+		audio.body.Write(sounds["base"])
 		for _, v := range outvoice {
-			f, err := os.Open("mp3/" + conversion[string(v)])
-			if err != nil {
-				fmt.Println(err)
-			}
-			io.Copy(tmpfile, f)
-			f.Close()
+			audio.body.Write(sounds[string(v)])
 		}
-		tmpfile.Close()
-		return "tmp.mp3"
+		return audio
 	}
-	return "tts_default.mp3"
+	audio.body.Write(sounds["default"])
+	return audio
 }
 
 func dedupZero(str string) string {
