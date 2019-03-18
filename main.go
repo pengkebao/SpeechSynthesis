@@ -47,7 +47,7 @@ func OutAudio(w http.ResponseWriter, r *http.Request) {
 	if len(invoice) < 1 {
 		return
 	}
-	//invoice := "创客宝多码付到账18元"
+	////invoice := "创客宝多码付到账18元"
 	newvoice := ""
 	for _, v := range invoice {
 		fmt.Println(string(v), v)

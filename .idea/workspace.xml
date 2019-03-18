@@ -2,26 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18750014-238b-4920-bfa3-e0c2365b05a8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_0.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_4.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_5.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_6.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_7.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_8.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_9.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_default.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_dot.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_hundred.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_pre.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_pre1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_ten.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_ten_thousand.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_thousand.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_yuan.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3.rar" beforeDir="false" afterPath="$PROJECT_DIR$/mp3.rar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/tts_0.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/tts_0.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/tts_1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/tts_1.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/tts_2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/tts_2.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/tts_4.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/tts_4.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/tts_5.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/tts_5.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/tts_6.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/tts_6.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/tts_7.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/tts_7.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/tts_8.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/tts_8.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/tts_9.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/tts_9.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/tts_dot.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/tts_dot.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/tts_hundred.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/tts_hundred.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/tts_pre.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/tts_pre.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/tts_ten.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/tts_ten.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/tts_ten_thousand.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/tts_ten_thousand.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/tts_thousand.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/tts_thousand.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/tts_yuan.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/tts_yuan.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/tmp.mp3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,14 +32,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3350">
-              <caret line="149" column="1" lean-forward="true" selection-start-line="149" selection-start-column="1" selection-end-line="149" selection-end-column="1" />
+            <state relative-caret-position="1425">
+              <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="digital.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/digitalProgram/digital.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3759">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
-                <element signature="e#14#88#0" expanded="true" />
+                <element signature="e#15#94#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,8 +57,8 @@
       <file leaf-file-name="buffer.go" pinned="false" current-in-tab="false">
         <entry file="file://C:/Go/src/bytes/buffer.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="187" column="13" selection-start-line="187" selection-start-column="13" selection-end-line="187" selection-end-column="13" />
+            <state relative-caret-position="11125">
+              <caret line="449" column="5" selection-start-line="449" selection-start-column="5" selection-end-line="449" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -56,8 +66,8 @@
       <file leaf-file-name="builtin.go" pinned="false" current-in-tab="false">
         <entry file="file://C:/Go/src/builtin/builtin.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="254" column="22" lean-forward="true" selection-start-line="254" selection-start-column="22" selection-end-line="254" selection-end-column="22" />
+            <state relative-caret-position="6350">
+              <caret line="254" column="22" selection-start-line="254" selection-start-column="22" selection-end-line="254" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -77,7 +87,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/utils/digital.go" />
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/digitalProgram/digital.go" />
       </list>
     </option>
   </component>
@@ -116,18 +128,8 @@
             </path>
             <path>
               <item name="SpeechSynthesis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="SpeechSynthesis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.11.2" type="20ee2d1f:SyntheticLibraryElementNode" />
-            </path>
-            <path>
-              <item name="SpeechSynthesis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.11.2" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SpeechSynthesis" type="462c0819:PsiDirectoryNode" />
+              <item name="digitalProgram" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -140,10 +142,15 @@
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CloudShop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PengKeBao\go\src\SpeechSynthesis\digitalProgram" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -159,25 +166,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24315871" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24315871" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Database" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.070689656" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32931036" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.070689656" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,26 +200,113 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Go/src/builtin/builtin.go">
+    <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="254" column="22" lean-forward="true" selection-start-line="254" selection-start-column="22" selection-end-line="254" selection-end-column="22" />
+        <state relative-caret-position="1425">
+          <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Go/src/bytes/buffer.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="187" column="13" selection-start-line="187" selection-start-column="13" selection-end-line="187" selection-end-column="13" />
+        <state relative-caret-position="11125">
+          <caret line="449" column="5" selection-start-line="449" selection-start-column="5" selection-end-line="449" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6350">
+          <caret line="254" column="22" selection-start-line="254" selection-start-column="22" selection-end-line="254" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitalProgram/digital.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+          <folding>
+            <element signature="e#15#94#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3350">
+        <state relative-caret-position="2475">
+          <caret line="109" column="24" selection-start-line="106" selection-start-column="12" selection-end-line="111" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/bytes/buffer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11125">
+          <caret line="449" column="5" selection-start-line="449" selection-start-column="5" selection-end-line="449" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6350">
+          <caret line="254" column="22" selection-start-line="254" selection-start-column="22" selection-end-line="254" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitalProgram/digital.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3725">
           <caret line="149" column="1" lean-forward="true" selection-start-line="149" selection-start-column="1" selection-end-line="149" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/bytes/buffer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4575">
+          <caret line="187" column="13" selection-start-line="187" selection-start-column="13" selection-end-line="187" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6350">
+          <caret line="254" column="22" lean-forward="true" selection-start-line="254" selection-start-column="22" selection-end-line="254" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6350">
+          <caret line="254" column="22" selection-start-line="254" selection-start-column="22" selection-end-line="254" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/bytes/buffer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11125">
+          <caret line="449" column="5" selection-start-line="449" selection-start-column="5" selection-end-line="449" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digitalProgram/digital.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3759">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
-            <element signature="e#14#88#0" expanded="true" />
+            <element signature="e#15#94#0" expanded="true" />
           </folding>
         </state>
       </provider>
