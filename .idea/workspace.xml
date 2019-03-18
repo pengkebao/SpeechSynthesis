@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18750014-238b-4920-bfa3-e0c2365b05a8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_0.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_3.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_4.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_5.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_6.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_7.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_8.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_9.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_default.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_dot.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_hundred.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_pre.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_pre1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_ten.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_ten_thousand.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_thousand.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalProgram/mp3/tts_yuan.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/digitalProgram/digital.go" beforeDir="false" afterPath="$PROJECT_DIR$/digitalProgram/digital.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +25,8 @@
       <file leaf-file-name="digital.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/digitalProgram/digital.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3759">
-              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            <state relative-caret-position="-1600">
+              <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
               <folding>
                 <element signature="e#15#94#0" expanded="true" />
               </folding>
@@ -108,7 +88,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="118" />
     <option name="y" value="94" />
     <option name="width" value="2520" />
@@ -303,8 +283,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/digitalProgram/digital.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3759">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="-1600">
+          <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
           <folding>
             <element signature="e#15#94#0" expanded="true" />
           </folding>

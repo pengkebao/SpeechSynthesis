@@ -61,13 +61,13 @@ func InitVoice(srcStr []string) (dstVoice [][]byte) {
 /**
 处理数字音频
 */
-func DigitalProcess(n string) (outVoice *bytes.Buffer) {
+func DigitalProcess(n string) *bytes.Buffer {
 	src := strings.Split(n, ".")
 	integer, err := strconv.Atoi(src[0])
 	if err != nil {
 		fmt.Println(err)
 	}
-	outVoice = bytes.NewBuffer(make([]byte, 0))
+	outVoice := bytes.NewBuffer(make([]byte, 0))
 	if integer >= 100000000 {
 		outVoice.Write(otherVoice[2])
 		return outVoice
