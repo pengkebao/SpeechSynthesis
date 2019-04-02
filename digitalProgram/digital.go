@@ -133,7 +133,7 @@ func DigitalProcess(n string) *bytes.Buffer {
 	*/
 	if decimal > 0 {
 		outVoice.Write(otherVoice[0]) //点
-		decimalArray := createDecimalArray(decimal, 2)
+		decimalArray := createDecimalArray(src[1], 2)
 		for k, v := range decimalArray {
 			outVoice.Write(digitalVoice[v])
 			if k == 1 {
@@ -153,8 +153,7 @@ func DigitalProcess(n string) *bytes.Buffer {
 @param n 小数整型
 @param length 要保留小数的位数
 */
-func createDecimalArray(n int, length int) []int {
-	s := strconv.Itoa(n)
+func createDecimalArray(s string, length int) []int {
 	data := make([]int, 0)
 	for k, v := range s {
 		tmp, _ := strconv.Atoi(string(v))
